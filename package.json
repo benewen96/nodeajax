@@ -1,0 +1,26 @@
+{
+  "name": "nodeajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "express-handlebars": "^3.0.0",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benewen96/nodeajax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benewen96/nodeajax/issues"
+  },
+  "homepage": "https://github.com/benewen96/nodeajax#readme"
+}
