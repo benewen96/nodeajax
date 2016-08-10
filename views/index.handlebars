@@ -1,0 +1,15 @@
+<p>This is index.handlebars checking in...</p>
+
+<script>
+"use strict";
+(function($) {
+	$(function() {
+		$.ajax({
+             type: 'GET',
+             url: '/request',
+         }).done(function(response) {
+              document.getElementById('output').textContent = response; //return response to client
+         });
+	});
+})(jQuery);
+</script>
