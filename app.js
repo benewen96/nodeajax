@@ -17,6 +17,5 @@ app.use(express.static('./public'));
 // Load routes into app
 app.use(router);
 
-app.listen(3000);
 
 module.exports = app;
